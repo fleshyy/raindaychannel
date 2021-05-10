@@ -1,0 +1,125 @@
+@media only screen and (max-width: 700px) {
+    .container{
+        padding-top: 10px;
+        margin:  auto;
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        
+    
+    }
+    .main-nav{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        max-width: 250px;
+        }
+        .main-nav-list li {
+            display: flex;
+            padding:0.25rem;
+           flex-direction: column;
+            }
+}
+@media only screen and (max-width: 450px) {
+    .rdcIndexcontent{
+        display: flex;
+        
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .rdcIndexcontent p{
+        max-width: 80%;
+        
+    }
+    .rdcIndexcontent img{
+        max-width: 50px;
+        max-height:  50px;
+    }
+    
+}
+header{
+  
+    background-color:  rgb(175, 255, 255);
+
+}
+.container{
+    margin:  auto;
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.header-logo img{
+    height:50px;
+    max-height: 100%;
+    
+}
+.main-nav{
+margin-left: auto;
+}
+.main-nav ul{
+padding: 0;    }
+.main-nav-list li{
+display: inline-block;
+padding:0.25rem;
+border: #c001ff solid 0.2rem;
+border-radius: 5px;
+margin: 0.1rem;
+
+}
+.main-nav-list a{
+    text-decoration: none;
+    color: #c001ff;
+}
+
+
+/*main body idex*/
+.rdcBB{
+display: flex;  
+background-color: aqua;
+justify-content: center;
+    text-align: center;
+}
+.rdcIndexcontent{
+    display: flex;
+    background-color: rgb(175, 255, 255);
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.rdcIndexcontent p{
+    max-width: 50%;
+    
+}
+.rdcIndexcontent img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/*main target audience*/
+.rdctacontent{
+    display: flex;
+    background-color: rgb(175, 255, 255);
+    
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0;
+}
+.rdctacontent h2{
+    background-color: aqua;
+    width: 100%;
+    margin: 0;
+    padding: 0.4rem;
+}
