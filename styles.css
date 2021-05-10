@@ -123,3 +123,22 @@ justify-content: center;
     margin: 0;
     padding: 0.4rem;
 }
+/*color scheme page*/
+
+.rdccscontent{
+    display: flex;
+    background-color: rgb(175, 255, 255);
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.rdccscontent p{
+    max-width: 50%;
+    font-size: 1.2em;
+    
+}
+.rdccscontent img{
+    max-width: 500px;
+    max-height: 500px;
+}
