@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    font-family: 'Itim', cursive;
+}
 @media only screen and (max-width: 700px) {
     .container{
         padding-top: 10px;
